@@ -1,3 +1,7 @@
+# encoding: UTF-8
+# coding: UTF-8
+# -*- coding: UTF-8 -*-
+
 require 'telegram/bot'
 require 'net/http'
 
