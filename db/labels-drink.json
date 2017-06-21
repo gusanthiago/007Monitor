@@ -1,0 +1,217 @@
+{
+	"labels": [
+	{
+		"name": "beer",
+		"translate": "cerveja"
+	}
+	]	,
+	"brands": [
+	{
+		"name": "Adriatica"
+	},
+	{
+		"name": "Antarctica"
+	},
+	{
+		"name": "Antarctica Sub Zero"
+	},
+	{
+		"name": "Bohemia"
+	},
+	{
+		"name": "Brahma"
+	},
+	{
+		"name": "Brahma Extra"
+	},
+	{
+		"name": "Brahma Fresh"
+	},
+	{
+		"name": "Brahma Light"
+	},
+	{
+		"name": "Brahma Zero"
+	},
+	{
+		"name": "Budweiser"
+	},
+	{
+		"name": "Caracu"
+	},
+	{
+		"name": "Colorado"
+	},
+	{
+		"name": "Corona"
+	},
+	{
+		"name": "Franziskaner"
+	},
+	{
+		"name": "Goose Island"
+	},
+	{
+		"name": "Hertog Jan"
+	},
+	{
+		"name": "Hoegaarden"
+	},
+	{
+		"name": "Kronenbier"
+	},
+	{
+		"name": "Labatt Blue"
+	},
+	{
+		"name": "Lakeport Brewing"
+	},
+	{
+		"name": "Leffe"
+	},
+	{
+		"name": "Liber"
+	},
+	{
+	"name": "Miller"
+	},
+	{
+		"name": "Norteña"
+	},
+	{
+		"name": "Original"
+	},
+	{
+		"name": "Patagonia"
+	},
+	{
+		"name": "Patricia"
+	},
+	{
+		"name": "Polar"
+	},
+	{
+		"name": "President"
+	},
+	{
+		"name": "Puerto del Mar"
+	},
+	{
+		"name": "Serra Malte"
+	},
+	{
+		"name": "Skol"
+	},
+	{
+		"name": "Skol Beats Secret"
+	},
+	{
+		"name": "Skol Beats Senses"
+	},
+	{
+		"name": "Skol Beats Spirit"
+	},
+	{
+		"name": "Skol Ultra"
+	},
+	{
+		"name": "Skol360"
+	},
+	{
+		"name": "Staropramen"
+	},
+	{
+		"name": "Stella Artois"
+	},
+	{
+		"name": "Wäls"
+	},
+	{
+		"name": "Affligem"
+	},
+	{
+		"name": "Al Ahram"
+	},
+	{
+		"name": "Almaza"
+	},
+	{
+		"name": "Amstel"
+	},
+	{
+		"name": "Athenian"
+	},
+	{
+		"name": "Beamish & Crawford"
+	},
+	{
+		"name": "Bochkarev"
+	},
+	{
+		"name": "Bralima"
+	},
+	{
+		"name": "Brasserie Pelforth"
+	},
+	{
+		"name": "Caledonian"
+	},
+	{
+		"name": "Central de Cervejas"
+	},
+	{
+		"name": "Cruzcampo"
+	},
+	{
+		"name": "DB Breweries"
+	},
+	{
+		"name": "De Ridder"
+	},
+	{
+		"name": "Fürstenberg"
+	},
+	{
+		"name": "Heineken"
+	},
+	{
+		"name": "Karlovačko"
+	},
+	{
+		"name": "Krušovice"
+	},
+	{
+		"name": "Monteith's"
+	},
+	{
+		"name": "Murphy's"
+	},
+	{
+		"name": "Nigerian Breweries"
+	},
+	{
+		"name": "Sedibeng"
+	},
+	{
+		"name": "Skopje"
+	},
+	{
+		"name": "Starobrno"
+	},
+	{
+		"name": "Tecate"
+	},
+	{
+		"name": "Zagorka"
+	},
+	{
+		"name": "Zlatý Bažant"
+	},
+	{
+		"name": "Żywiec"
+	},
+	{
+		"name": "Baden"
+	}
+	]
+}
