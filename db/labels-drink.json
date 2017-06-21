@@ -3,6 +3,10 @@
 	{
 		"name": "beer",
 		"translate": "cerveja"
+	},
+	{
+		"name": "Drink",
+		"translate": "Bebida"
 	}
 	]	,
 	"brands": [

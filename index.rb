@@ -4,13 +4,13 @@ require 'net/http'
 require 'json'
 
 # Token fornecido pelo BotFather
-token = '374527114:AAH2irPyZF-FnfOWGorCoodW4kVJNFEFolY'
+token = ENV["token"]
 
 # Url do raspberry
-url_cam = 'http://192.168.43.196:8080/RPi_Cam/cam.jpg'
+url_cam = ENV["url_cam"]
 
 # Url alocada a api
-url_api = 'http://b5745128.ngrok.io/'
+url_api = ENV["url_api"]
 
 # Uri para requisitar a imagem
 uri_create = URI(url_api + 'v1/api/image/create/')
@@ -32,9 +32,14 @@ def make_text(labels_drink, vision)
 				brand_avaliable += 1
 			end
 		end
+		labels_drink["labels"].each do |label|
+			if entityWeb["description"].downcase.include?(label["name"].downcase)		
+				labels_avaliable += 1
+			end
+		end
 	end
 
-	vision["web"].each do |labelVis|
+	vision["labels"].each do |labelVis|
 		labels_drink["labels"].each do |label|
 			if labelVis["description"].downcase.include?(label["name"].downcase)		
 				labels_avaliable += 1
@@ -64,7 +69,7 @@ Telegram::Bot::Client.run(token) do |bot|
 			kb = [
 			    Telegram::Bot::Types::KeyboardButton.new(text: "\xF0\x9F\x8D\xBA"),
 			]
-			markup = Telegram::Bot::Types::ReplyKeyboardMarkup.new(keyboard: kb)
+			markup = Telegram::Bot::Types::ReplyKeyboardMarkup.new(keyboard: kb, one_time_keyboard: false)
 			bot.api.send_message(chat_id: message.chat.id, text: "Eai #{message.from.first_name} toque para saber se tem breja pra hoje...", reply_markup: markup)
 		end
  	end
