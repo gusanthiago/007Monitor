@@ -24,10 +24,10 @@ no seu celular.*"
 ### Requisítos.
 * Geladeira;
 * Cerveja :beer:;
-* Interface para capturar imagem :robo:;
+* Interface para capturar imagem;
 
   Neste case foi usado um Raspberry PI 3 e uma micro camera para capturar as imagens com esta [interface web](https://github.com/silvanmelchior/RPi_Cam_Web_Interface).
-* [Api para reconhecimento de padrões](https://github.com/gusanthiago/Api-recognition-image)
+* [Api para reconhecimento de padrões](https://github.com/gusanthiago/Api-recognition-image).
 
   Para ser possível tornar este sonho realidade foi necessário desenvolver uma api para classificar e demarcar as características de uma imagem.
 
