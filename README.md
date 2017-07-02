@@ -24,6 +24,7 @@ no seu celular.*"
 ### Requisítos.
 * Geladeira;
 * Cerveja :beer:;
+* Ruby  >= 2.4.0;
 * Interface para capturar imagem;
 
   Neste case foi usado um Raspberry PI 3 e uma micro camera para capturar as imagens com esta [interface web](https://github.com/silvanmelchior/RPi_Cam_Web_Interface).
