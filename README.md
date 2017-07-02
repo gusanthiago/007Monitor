@@ -43,12 +43,8 @@ no seu celular.*"
 
 #### Setando variáveis de ambiente.
 
-```
-token - Fornecida pelo [BotFather](https://telegram.me/BotFather) é a autenticação que o Telegram precisa para autenticar seu script no bot.
-```
-```
-url_cam - Url de acesso a imagem do Raspberry.
-```
-```
-url_api - Url da api para acessar as informações necessárias.
-```
+* token - Fornecida pelo [BotFather](https://telegram.me/BotFather) é a autenticação que o Telegram precisa para autenticar seu script no bot.
+
+* url_cam - Url de acesso a imagem do Raspberry.
+
+* url_api - Url da api para acessar as informações necessárias.
