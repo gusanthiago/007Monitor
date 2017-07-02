@@ -17,7 +17,7 @@ no seu celular.*"
 
 ## Demo
 ### Em ação :sunglasses:
-<div style="text-align:center"><img width="400" src="sample.jpg" /></div>
+<img width="360" src="sample.jpg" />
 
 ## Configuração e implementação
 
