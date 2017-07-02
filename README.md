@@ -1,5 +1,5 @@
 
-## :beer: 007Monitor :beer: :rocket: :rocket:
+# :beer: 007Monitor :beer: :rocket: :rocket:
 
 "*No mundo atual, as pessoas têm muitas
 preocupações: trabalho, faculdade, família, contas etc.
@@ -15,13 +15,13 @@ de distração com os amigos, mantendo o usuário
 informado sobre a situação atual da geladeira diretamente
 no seu celular.*"
 
-### Demo
-#### Em ação :sunglasses:
+## Demo
+### Em ação :sunglasses:
 <div style="text-align:center"><img width="400" src="sample.jpg" /></div>
 
-### Configuração e implementação
-#### Requisítos
+## Configuração e implementação
 
+### Requisítos.
 * Geladeira;
 * Cerveja :beer:;
 * Interface para capturar imagem :robo:;
@@ -32,3 +32,23 @@ no seu celular.*"
   Para ser possível tornar este sonho realidade foi necessário desenvolver uma api para classificar e demarcar as características de uma imagem.
 
 * Geladeira com cerveja. :scream:
+
+### Configuração.
+
+#### Instalando as dependências
+
+```
+> bundle install
+```
+
+#### Setando variáveis de ambiente.
+
+```
+token - Fornecida pelo [BotFather](https://telegram.me/BotFather) é a autenticação que o Telegram precisa para autenticar seu script no bot.
+```
+```
+url_cam - Url de acesso a imagem do Raspberry.
+```
+```
+url_api - Url da api para acessar as informações necessárias.
+```
